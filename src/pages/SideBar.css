@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #fff;
+  height: 100vh;
+  transition: width 0.3s;
+  overflow: hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar.open {
+  width: 190px;
+}
+
+.sidebar.closed {
+  width: 60px;
+  overflow-x: hidden;
+
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 21px;
+  font-weight: bold;
+  color: #333;
+  transition: opacity 0.3s;
+}
+
+.bars {
+  cursor: pointer;
+}
+
+.menu {
+  padding: 20px 0;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.link:hover {
+  background: #f0f0f0;
+}
+
+.link.active {
+  background: #ddd;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.link_text {
+  display: inline-block;
+  transition: opacity 0.3s;
+}
+
+main {
+  margin-left: 200px;
+  transition: margin-left 0.3s;
+}
+
+.main-open {
+  margin-left: 200px;
+}
+
+.main-closed {
+  margin-left: 60px;
+  overflow:auto;
+}

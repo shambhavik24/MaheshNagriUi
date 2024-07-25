@@ -1,0 +1,49 @@
+{
+  "name": "maheshnagri-application",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "electron-build": "npm run build && electron .",
+    "start-live-server": "node live-server.mjs"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "chart.js": "^4.4.3",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "lucide-react": "^0.402.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.4",
+    "react-bootstrap-icons": "^1.11.4",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-pdf": "^9.0.0",
+    "react-popout": "^3.0.4",
+    "react-pro-sidebar": "^1.1.0",
+    "react-router-dom": "^6.23.1",
+    "react-to-pdf": "^1.0.1",
+    "sweetalert2": "^11.11.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "electron": "^31.0.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "live-server": "^1.2.2",
+    "vite": "^5.2.0"
+  }
+}

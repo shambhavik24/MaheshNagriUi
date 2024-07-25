@@ -1,0 +1,17 @@
+.marquee-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #010d18; 
+  
+  
+  padding: 10px 0; 
+  z-index: 1000; 
+}
+
+/* .marquee-container marquee {
+  
+ 
+ 
+} */
