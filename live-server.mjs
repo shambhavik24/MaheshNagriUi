@@ -3,7 +3,7 @@ import liveServer from 'live-server';
 const params = {
     port: 8081,
     host: "0.0.0.0",
-    root: "./build",
+    root: "./dist",
     file: "index.html",
     wait: 1000,
 };
