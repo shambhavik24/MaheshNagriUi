@@ -77,7 +77,7 @@ const ReportPdf = () => {
       <div className="form-container">
       </div>
       <div className="table-container" id="reportContent" >
-        <h2>BHEDSGOAN SAHKARI SANTHA</h2>
+        <h2>PDF DOWNLOAD HERE</h2>
         {fromDate && toDate && (
           <p>{`Date from ${new Date(fromDate).toLocaleDateString('en-GB')}
            to ${new Date(toDate).toLocaleDateString('en-GB')}`}</p>
