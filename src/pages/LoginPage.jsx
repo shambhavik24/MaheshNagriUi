@@ -47,7 +47,7 @@ const LoginPage = ({ login }) => {
       <div className="login-container bg-light" style={{ fontWeight: 'bold' }}>
         <div className="marquee-container bg-dark text-white">
           <marquee behavior="scroll" direction="left">
-            WELCOME TO THE BHEDASGAON SAHKARI PATH SANTH PVT LTD.
+            WELCOME TO THE LOGIN.
           </marquee>
         </div>
         <div className="form-container d-flex justify-content-center align-items-center">
